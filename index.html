@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sticky Notes</title>
+  <meta name="description" content="Krzysztof Wasilewski - Sticky Notes">
+  <meta name="author" content="Krzysztof Wasilewski">
+  <link rel="shortcut icon" href="img/fav.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="../js/jquery-ui-1.12.1.custom/jquery-ui.css">
+  <link rel="stylesheet" href="../js/jquery-ui-1.12.1.custom/jquery-ui.structure.css">
+  <link rel="stylesheet" href="../js/jquery-ui-1.12.1.custom/jquery-ui.theme.css">
+</head>
+<body>
+    <div class="mainArea " id="mainArea">
+
+    </div>
+    <div id="addButton" class="addButton" onclick="showOverlayToAdd()"></div>
+
+    <div id="overlay" class="overlay">
+      <div id="overlayMessageBox" class = "overlayMessageBox">
+        <div id="overlayMessageBoxColor" class = "overlayMessageBoxColor"></div>
+        <textarea id="overlayMessageBoxText" class = "overlayMessageBoxText "></textarea><br>
+        <button id="overlayMessageBoxSubmit" class = "overlayMessageBoxButton loadLink ui-button ui-corner-all ui-widget" onclick="saveOverlay()">Save</button>
+        <button id="overlayMessageBoxCancel" class = "overlayMessageBoxButton loadLink ui-button ui-corner-all ui-widget" onclick="cancelOverlay()">Cancel</button>
+      </div>
+    </div>
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+  <script src="js/scripts.js"></script>
+<script>
+ </script>
+
+
+</body>
+</html>
